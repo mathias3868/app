@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(circle, #666, #ccc);
+}
+
+.container {
+  margin: auto;
+  margin-top: 100px;
+  width: 550px;
+  height: 430px;
+  background-color: rgb(173, 223, 243);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 5px 2px skyblue;
+}
+.container #tryagainbox {
+  width: 130px;
+  height: 40px;
+  font-size: 18px;
+  color: #ccc;
+  padding: 10px;
+  text-align: center;
+  background: rgb(248, 56, 56);
+  color: #123;
+  position: absolute;
+  left: 45%;
+  display: none;
+}
+.container #correctbox {
+  width: 130px;
+  height: 40px;
+  padding: 10px;
+  font-size: 18px;
+  box-shadow: 0 4px 2px rgb(184, 223, 126);
+  color: white;
+  text-align: center;
+  background: rgb(148, 219, 41);
+  position: absolute;
+  left: 45%;
+  display: none;
+}
+.container .scorebox {
+  width: 80px;
+  height: 40px;
+  padding: 8px;
+  color: #b3b3b3;
+  background: #f1ff92;
+  box-shadow: 0 4px 2px rgb(241, 227, 200);
+  font-size: 18px;
+  position: absolute;
+  left: 63%;
+}
+.container #questionbox {
+  width: 400px;
+  height: 150px;
+  background: rgb(132, 125, 177);
+  margin-top: 50px;
+  font-size: 100px;
+  text-align: center;
+  line-height: 170px;
+  margin-left: 50px;
+  box-shadow: 0 4px 2px rgb(178, 168, 241);
+}
+.container .cautio {
+  width: 400px;
+  height: 50px;
+  background: rgb(175, 92, 175);
+  margin: 10px 50px;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 4px 2px rgb(235, 158, 235);
+}
+.container .boxes {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+}
+.container .boxes .box {
+  background: white;
+  color: #4e4a4a;
+  text-align: center;
+  padding-top: 37px;
+  font-size: 18px;
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  box-shadow: 0 4px 2px #ccc;
+  cursor: pointer;
+}
+.container .boxes .box:hover {
+  background: #9c89fc;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 2px #6b54d3;
+}
+.container .boxes .box:active {
+  box-shadow: 0 4px 2px #6b54d3;
+  top: 4px;
+}
+.container #startgamebox {
+  width: 90px;
+  color: #123;
+  height: 40px;
+  font-size: 16px;
+  background: rgb(208, 231, 240);
+  box-shadow: 0 4px 2px #ccc;
+  margin: 10px 210px;
+  text-align: center;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.container #startgamebox:hover {
+  background: #9c89fc;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 2px #6b54d3;
+}
+.container #startgamebox:active {
+  box-shadow: 0 4px 2px #6b54d3;
+  top: 4px;
+}
+.container .timeremaining {
+  width: 150px;
+  height: 40px;
+  background: #afe722;
+  position: absolute;
+  bottom: 120px;
+  font-size: 14px;
+  left: 58%;
+  text-align: center;
+  padding-top: 10px;
+  box-shadow: 0 4px 2px #d7eca2;
+}
+.container #gameoverbox {
+  width: 450px;
+  height: 200px;
+  background: linear-gradient(#f3ca6b, #f3706c);
+  color: #fff;
+  position: absolute;
+  bottom: 240px;
+  left: 455px;
+  font-size: 50px;
+  text-align: center;
+  line-height: 90px;
+  display: none;
+}/*# sourceMappingURL=index.css.map */
